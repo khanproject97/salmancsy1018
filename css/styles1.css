@@ -28,6 +28,7 @@ header{
 .heading p{
 margin-top:20px;
   text-align:center;
+  text-shadow: 5pt 5pt 5pt black;
 
 }
 .middle{
@@ -124,17 +125,19 @@ font-family: 'Lobster', cursive;
 .follow{
   margin:20px;
   font-size:20pt;
+
+}
+.follow:hover{
+  transform: scale(1.1);
 }
 
 .followlogo img{
   margin: 10px;
 border:2px solid black;
   border-radius: 360px;
-
-
-
-
 }
+
+
 .form{
   color:white;
   padding:20px 20px;
@@ -187,7 +190,7 @@ border:2px solid black;
   background:grey;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){<!--It makes the page responsive to multiple devices-->
   .navigation{
     display:flex;
     flex-direction: column;
