@@ -4,10 +4,10 @@
 
 html,body{
   width=100%;
-  height=100%;<!--it will adjust the height of the page to 100%-->
+  height=100%; /*it will adjust the height of the page to 100%*/
   padding:0;
   margin:0;
-  font-size:18px;
+
   background-color:black;
   font-family:cursive;
 
@@ -17,23 +17,24 @@ html,body{
   }
 
 
-header{
-  background-color:grey;
-  height:100px;
-  border:2px solid black;<!--border of 2pixel will be created around header-->
-  font-size:50px;
+  header{
+    background-color:grey;
+    height:100px;
+    border:2px solid black;
+    font-size:50px;
+    color:black;
 
-}
+  }
 
-.heading p{
-margin-top:20px;
-  text-align:center;
-  text-shadow: 5pt 5pt 5pt black;<!--It will create a shadow of the text-->
+  .heading p{
+  margin-top:20px;
+    text-align:center;
+    text-shadow: 5pt 5pt 5pt black;/*It will put a shadow to a text*/
 
 }
 .middle{
   background-color:black;
-  text-align: center;<!--It will place the text at the center of the page-->
+  text-align: center;/*It will place the text at the center of the page*/
   padding-top: 20px;
 
 
@@ -62,7 +63,7 @@ margin-top:20px;
 
 
 .navigation{
-  padding-bottom: 40px;<!--It will adjust the position of the content inside the division-->
+  padding-bottom: 40px;/*It will adjust the position of the content inside the division*/
 }
 .navigation a {
   display:block;
@@ -75,7 +76,7 @@ margin-top:20px;
   border:2px solid white;
   border-radius:50px;
   height:40px;
-  font-family: inherit; <!--Type of font is chosen-->
+  font-family: inherit; /*Type of font is chosen*/
 
 
   }
@@ -110,7 +111,7 @@ width:140px;
 
 
 footer{
-  display:flex;<!--It makes the items to display in part-->
+  display:flex;/*It makes the items to display in part*/
   flex-direction: row;
   flex-wrap: nowrap;
 font-family: 'Lobster', cursive;

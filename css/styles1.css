@@ -189,17 +189,17 @@ border:2px solid black;
   border:2px solid black;
   background:grey;
 }
+/*It will make a page responsive*/
+@media screen and (max-width: 768px){
 
-@media screen and (max-width: 768px){<!--It makes the page responsive to multiple devices-->
   .navigation{
     display:flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction:column;
+    flex-wrap:nowrap;
   }
 
   .navigation a{
-
-    margin:5px 0px;
+    margin:10px 0px;
   }
   .cv{
     display:flex;
