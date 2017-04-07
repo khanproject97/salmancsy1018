@@ -10,6 +10,8 @@ html,body{
   font-size:18px;
   background-color:black;
   font-family:cursive;
+  color:white;
+
 
   }
 
@@ -19,6 +21,7 @@ header{
   height:100px;
   border:2px solid black;
   font-size:50px;
+  color:black;
 
 }
 
@@ -94,12 +97,16 @@ width:140px;
 
 
 .content{
+  font-size:14pt;
   color:white;
-  margin: 20px 40px;
+  margin: 50px 40px;
   border:2px solid white;
 
 }
-
+.content p{
+  margin:10px 20px;
+  font-size: 15pt;
+}
 
 
 
@@ -107,10 +114,10 @@ footer{
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
-padding: 20px;
+font-family: 'Lobster', cursive;
   background-color:grey;
   text-align: left;
-  margin-top: 278px;
+  color:black;
 
 }
 
@@ -119,10 +126,90 @@ padding: 20px;
   font-size:20pt;
 }
 
+.followlogo img{
+  margin: 10px;
+border:2px solid black;
+  border-radius: 360px;
 
-  .followlogo img{
 
+
+
+}
+.form{
+  color:white;
+  padding:20px 20px;
+  border:2px solid white;
+  margin:40px 30px;
+  text-align: center;
+
+}
+
+.form input{
+  background-color:white;
+  color:black;
+}
+
+.form textarea{
+  background:white;
+  color:black;
+}
+.cv{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: left;
+}
+.part1{
+
+  margin: 20px 40px;
+}
+.part1 h1{
   border:2px solid black;
-    border-radius: 360px;
-  margin:0px 20px;
+  background:grey;
+}
+.part2{
+  margin-left:400px;
+  margin-right: 20px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.academics h1{
+  border:2px solid black;
+  background:grey;
+
+}
+.skills h1{
+  border:2px solid black;
+  background:grey;
+}
+.experiences h1{
+  border:2px solid black;
+  background:grey;
+}
+
+@media screen and (max-width: 768px){
+  .navigation{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .navigation a{
+
+    margin:5px 0px;
+  }
+  .cv{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: left;
+  }
+  .part2{
+    margin-left: 40px;
+  }
+
+  .form textarea{
+    width:160px;
+    height:80px;
+  }
 }

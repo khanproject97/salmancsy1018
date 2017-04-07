@@ -108,14 +108,14 @@ footer{
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
-
+font-family: 'Lobster', cursive;
   background-color:grey;
   text-align: left;
 
 }
 
 .follow{
-  margin:20px;
+  margin:16px ;
   font-size:20pt;
 }
 
@@ -123,6 +123,8 @@ footer{
   margin: 10px;
 border:2px solid black;
   border-radius: 360px;
+
+
 
 
 }
